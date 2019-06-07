@@ -1,0 +1,85 @@
+
+@media only screen and (min-width: 768px){
+    html{
+        overflow-x: hidden;
+    }
+}
+main{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+main form{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+main form input[type="submit"]{
+    width: 30%;
+}
+.in-input{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 20px;
+    float: left;
+}
+p.show{
+    font-size: 1.5em;
+}
+a.btn.accept{
+    /* background-color: rgb(57, 128, 161); */
+    background-color: rgb(33, 167, 122);
+    width: 30%;
+    margin: 0 auto;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: .45em 1em;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+/*===========================================================*/
+div.img#AFD-Number{
+    background: url("../img/1x/AFD_Numeros.png");
+    width: 100%;
+    height: 400px;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    /* background-color: aquamarine; */
+    left: 0;
+    box-sizing: border-box;
+}
+
+.img p.edo{
+    position: absolute;
+    background-color: rgb(228, 228, 228);
+    top: 0;
+    left: 0;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 9px 0;
+    font-size: 1.3em;
+    margin: 0;
+    box-sizing: border-box;
+    display: none;
+}
+.img p.edo.ac{
+    background-color: rgb(118, 191, 255);
+}
+.img p.edo#Q0{top: 164px; left: 248px;}
+.img p.edo#Q1{top: 6px; left: 369px;}
+.img p.edo#Q2{top: 159px; left: 369px;}
+.img p.edo#Q3{top: 74px; left: 490px;}
+.img p.edo#Q4{top: 348px; left: 564px;}
+.img p.edo#Q5{top: 234px; left: 627px;}
+/* .img p.edo#Q2{top: 300px; left: 369px;} */
+.img p.edo#C0{top: 312px; left: 368px;}
+.img p.edo#C1{top: 74px; left: 606px;}
+.img p.edo#C2{top: 235px; left: 490px;}
+.img p.edo#C3{top: 348px; left: 681px;}
+.img p.edo#C4{top: 151px; left: 670px;}

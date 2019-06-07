@@ -1,0 +1,2 @@
+Prueba de Texto En archivo de texto plano
+Extension .txt
